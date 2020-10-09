@@ -28,13 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.LabelExercise1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // LabelExercise1
+            // 
+            this.LabelExercise1.AutoSize = true;
+            this.LabelExercise1.Location = new System.Drawing.Point(201, 120);
+            this.LabelExercise1.Name = "LabelExercise1";
+            this.LabelExercise1.Size = new System.Drawing.Size(75, 13);
+            this.LabelExercise1.TabIndex = 0;
+            this.LabelExercise1.Text = "Click The form";
+            this.LabelExercise1.Click += new System.EventHandler(this.LabelExecise1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(473, 255);
+            this.Controls.Add(this.LabelExercise1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label LabelExercise1;
     }
 }
 

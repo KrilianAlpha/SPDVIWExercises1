@@ -16,5 +16,10 @@ namespace SPDVIWExercises1_Exercice1
         {
             InitializeComponent();
         }
+
+        private void LabelExecise1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }
