@@ -1,4 +1,3 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
@@ -12,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise4a", "SPDVIWExercises1_Exercise4a\SPDVIWExercises1_Exercise4a.csproj", "{522D18BD-EC24-4742-89D6-AC59279D949A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise4b", "SPDVIWExercises1_Exercise4b\SPDVIWExercises1_Exercise4b.csproj", "{5B72469E-198B-4026-AC98-3FC96C74C909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise5", "SPDVIWExercises1_Exercise5\SPDVIWExercises1_Exercise5.csproj", "{709420BF-78E5-4591-86E3-B767C9F43AF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +40,10 @@ Global
 		{5B72469E-198B-4026-AC98-3FC96C74C909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B72469E-198B-4026-AC98-3FC96C74C909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B72469E-198B-4026-AC98-3FC96C74C909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709420BF-78E5-4591-86E3-B767C9F43AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709420BF-78E5-4591-86E3-B767C9F43AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709420BF-78E5-4591-86E3-B767C9F43AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709420BF-78E5-4591-86E3-B767C9F43AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
