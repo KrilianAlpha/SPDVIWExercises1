@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercice1"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise2", "SPDVIWExercises1_Exercise2\SPDVIWExercises1_Exercise2.csproj", "{D1BCFCB3-ED2C-41F1-ACCF-9AB61A381FCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercise3", "SPDVIWExercise3\SPDVIWExercise3.csproj", "{433816B4-4488-4CD4-8524-89316A19FF62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise3", "SPDVIWExercise3\SPDVIWExercises1_Exercise3.csproj", "{433816B4-4488-4CD4-8524-89316A19FF62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise4", "WindowsFormsApp1\SPDVIWExercises1_Exercise4.csproj", "{522D18BD-EC24-4742-89D6-AC59279D949A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise4a", "WindowsFormsApp1\SPDVIWExercises1_Exercise4a.csproj", "{522D18BD-EC24-4742-89D6-AC59279D949A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPDVIWExercises1_Exercise4b", "WindowsFormsApp2\SPDVIWExercises1_Exercise4b.csproj", "{5B72469E-198B-4026-AC98-3FC96C74C909}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{522D18BD-EC24-4742-89D6-AC59279D949A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522D18BD-EC24-4742-89D6-AC59279D949A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522D18BD-EC24-4742-89D6-AC59279D949A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B72469E-198B-4026-AC98-3FC96C74C909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B72469E-198B-4026-AC98-3FC96C74C909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B72469E-198B-4026-AC98-3FC96C74C909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B72469E-198B-4026-AC98-3FC96C74C909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
