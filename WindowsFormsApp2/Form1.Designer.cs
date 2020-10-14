@@ -34,6 +34,7 @@
             this.ResetButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Options = new System.Windows.Forms.ListBox();
+            this.CalculateButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Value1
@@ -85,16 +86,28 @@
             this.Options.Items.AddRange(new object[] {
             "+",
             "-"});
-            this.Options.Location = new System.Drawing.Point(230, 75);
+            this.Options.Location = new System.Drawing.Point(248, 110);
             this.Options.Name = "Options";
-            this.Options.Size = new System.Drawing.Size(120, 17);
+            this.Options.Size = new System.Drawing.Size(75, 30);
             this.Options.TabIndex = 7;
+            this.Options.SelectedIndexChanged += new System.EventHandler(this.Options_SelectedIndexChanged);
+            // 
+            // CalculateButton
+            // 
+            this.CalculateButton.Location = new System.Drawing.Point(101, 176);
+            this.CalculateButton.Name = "CalculateButton";
+            this.CalculateButton.Size = new System.Drawing.Size(75, 23);
+            this.CalculateButton.TabIndex = 8;
+            this.CalculateButton.Text = "Calculate";
+            this.CalculateButton.UseVisualStyleBackColor = true;
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 259);
+            this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.Options);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ResetButton);
@@ -116,6 +129,7 @@
         private System.Windows.Forms.Button ResetButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox Options;
+        private System.Windows.Forms.Button CalculateButton;
     }
 }
 
