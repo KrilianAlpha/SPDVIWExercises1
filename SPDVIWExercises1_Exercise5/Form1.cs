@@ -27,7 +27,7 @@ namespace SPDVIWExercises1_Exercise5
             if (Option3.Checked == true) { v3 = Option3.Text; }
             Result.Text = "Selected: " + v1 + " " + v2 + " " + v3;
             v1 = ""; 
-            v2= "";
+            v2 = "";
             v3 = "";
         }
     }
